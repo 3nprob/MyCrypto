@@ -7337,7 +7337,7 @@ image-webpack-loader@4.2.0:
     imagemin-gifsicle "^5.1.0"
     imagemin-mozjpeg "^7.0.0"
     imagemin-optipng "^5.2.1"
-    imagemin-pngquant "^5.0.0"
+    imagemin-pngquant "^8.0.0"
     imagemin-svgo "^6.0.0"
     imagemin-webp "^4.0.0"
     loader-utils "^1.1.0"
@@ -7367,14 +7367,8 @@ imagemin-optipng@^5.2.1:
     is-png "^1.0.0"
     optipng-bin "^3.0.0"
 
-imagemin-pngquant@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/imagemin-pngquant/-/imagemin-pngquant-5.1.0.tgz#b9eb563d9e6a3876f6248be0061ba1b0ef269c07"
-  dependencies:
-    execa "^0.10.0"
-    is-png "^1.0.0"
-    is-stream "^1.1.0"
-    pngquant-bin "^4.0.0"
+imagemin-pngquant@^8.0.0:
+  version "8.0.0"
 
 imagemin-svgo@^6.0.0:
   version "6.0.0"
@@ -11016,14 +11010,8 @@ pnglib@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/pnglib/-/pnglib-0.0.1.tgz#f9ab6f9c688f4a9d579ad8be28878a716e30c096"
 
-pngquant-bin@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/pngquant-bin/-/pngquant-bin-4.0.0.tgz#468adf7036f50fae09c9c264ef62b6d10c02f5c2"
-  dependencies:
-    bin-build "^3.0.0"
-    bin-wrapper "^3.0.0"
-    execa "^0.10.0"
-    logalot "^2.0.0"
+pngquant-bin@^5.0.0:
+  version "5.0.0"
 
 portfinder@^1.0.24:
   version "1.0.24"

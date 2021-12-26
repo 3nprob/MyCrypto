@@ -38,8 +38,9 @@ async function build() {
       mac: shouldBuildOs('mac') ? ['zip', 'dmg'] : undefined,
       win: shouldBuildOs('windows') ? ['nsis'] : undefined,
       linux: shouldBuildOs('linux') ? ['AppImage'] : undefined,
-      x64: true,
-      ia32: true,
+      x64: false,
+      ia32: false,
+      arm64: true,
       config: {
         appId: 'com.github.mycrypto.mycryptohq',
         productName: 'MyCrypto',

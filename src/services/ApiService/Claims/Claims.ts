@@ -43,7 +43,7 @@ export default class ClaimsService {
         return claims;
       })
       .catch((err) => {
-        console.debug('[UniswapService]: Get Claims failed: ', err);
+        console.debug('[UniswapService]: Get Claims failed, returning []: ', err);
         return null;
       });
   }
